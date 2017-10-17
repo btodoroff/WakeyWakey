@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>38C076CA-4954-47A0-9BAB-E53694DCC25D</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Wakey Wakey! Eggs and Bacy!</title>
+            <author>Brian Todoroff</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2017</firstpublished>
+            <description>It's Tuesday morning, your clock radio is pumping out the latest Taylor Swift, and school awaits.</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2017-10-17</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2017-10-17</originated>
+        </colophon>
+        <glulx>
+            <serial>171017</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+        </glulx>
+    </story>
+</ifindex>

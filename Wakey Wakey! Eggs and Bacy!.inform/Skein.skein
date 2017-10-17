@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-159"/>
+  <item nodeId="node-0">
+    <command xml:space="preserve">Wakey Wakey! Eggs and Bacy!</command>
+    <result xml:space="preserve">Wakey Wakey! Eggs and Bacy!&#x000A;An Interactive Fiction by Brian Todoroff&#x000A;Release 1 / Serial number 171017 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;You crawl out of bed to Taylor Swift's new song.  It's another Tuesday morning and you smell waffles calling to you from downstairs.&#x000A;&#x000A;Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1"/>
+      <child nodeId="node-7"/>
+      <child nodeId="node-16"/>
+      <child nodeId="node-27"/>
+      <child nodeId="node-30"/>
+      <child nodeId="node-44"/>
+      <child nodeId="node-45"/>
+      <child nodeId="node-55"/>
+      <child nodeId="node-64"/>
+      <child nodeId="node-71"/>
+      <child nodeId="node-73"/>
+      <child nodeId="node-79"/>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-1">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">?</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">goto Upstairs Hall</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Laurens's Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Laurens's Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Laurens's Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">go southwest</command>
+    <result xml:space="preserve">Caitlins's Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Laurens's Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">Girl's Bathroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">go southwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">Downstairs&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Laurens's Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Laurens's Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">open Closet Door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Laurens's Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">Go southeast</command>
+    <result xml:space="preserve">LRoom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Laurens's Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-31"/>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Lauren's Closet&#x000A;Obviously a fasionista has stocked this closet!&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the south.&#x000A;&#x000A;A colorful dirty clothes basket sits in the middle of the closet and a few clothes have actually made it in!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lauren's Closet&#x000A;Obviously a fasionista has stocked this closet!&#x000A;&#x000A;The closet door is complete with an array of fasionable footwear.&#x000A;&#x000A;A colorful dirty clothes basket sits in the middle of the closet and a few clothes have actually made it in!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">close closet door</command>
+    <result xml:space="preserve">You close the Closet Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lauren's Closet&#x000A;Obviously a fasionista has stocked this closet!&#x000A;&#x000A;The closet door is complete with an array of fasionable footwear.&#x000A;&#x000A;A colorful dirty clothes basket sits in the middle of the closet and a few clothes have actually made it in!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">close door</command>
+    <result xml:space="preserve">You close the Closet Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lauren's Closet&#x000A;Obviously a fasionista has stocked this closet!&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is closed to the south.&#x000A;&#x000A;A colorful dirty clothes basket sits in the middle of the closet and a few clothes have actually made it in!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the Closet Door)&#x000A;&#x000A;Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">close door</command>
+    <result xml:space="preserve">Which do you mean, the Closet Door or Lauren's Door?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Lauren's Closet&#x000A;Obviously a fasionista has stocked this closet!&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the south.&#x000A;&#x000A;A colorful dirty clothes basket sits in the middle of the closet and a few clothes have actually made it in!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">get into Lauren's Bed</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">get into Lauren's bed</command>
+    <result xml:space="preserve">You get onto Lauren's Bed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lauren's Room (on Lauren's Bed)&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the south.&#x000A;&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">get out</command>
+    <result xml:space="preserve">You get off Lauren's Bed.&#x000A;&#x000A;Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">look under Lauren's Bed</command>
+    <result xml:space="preserve">Maybe you better not...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">look at Lauren's bed</command>
+    <result xml:space="preserve">Warm and cozy, the bed calls to you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">look at Lauren's Door</command>
+    <result xml:space="preserve">You see nothing special about Lauren's Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">look at the door</command>
+    <result xml:space="preserve">Which do you mean, the Closet Door or Lauren's Door?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">go to Hall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">go southwest</command>
+    <result xml:space="preserve">Caitlin's Room&#x000A;This is a very cute room with purple walls and a zoo's worth of stuffed animals.  The bed looks a bit like a fluffy tornado has been through.&#x000A;&#x000A;A open white door is to the northeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The stairs lead downstairs to breakfast once you are ready for the day.&#x000A;&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">Girl's Bathroom&#x000A;A small bathroom complete with calming blue walls, a single granite sink, toilet, and shower with tub.&#x000A;&#x000A;The bathroom door is open to the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-57"/>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">get into shower</command>
+    <result xml:space="preserve">You get into Shower.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Girl's Bathroom (in Shower)&#x000A;A small bathroom complete with calming blue walls, a single granite sink, toilet, and shower with tub.&#x000A;&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;You can also see a Bathroom Toilet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">look at shower</command>
+    <result xml:space="preserve">A tub with shower and glass doors is surrounded with white marble walls with streaks of blue that remind you of the waves at the beach.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">get out of shower</command>
+    <result xml:space="preserve">I only understood you as far as wanting to get outside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">get out</command>
+    <result xml:space="preserve">You get out of Shower.&#x000A;&#x000A;Girl's Bathroom&#x000A;A small bathroom complete with calming blue walls, a single granite sink, toilet, and shower with tub.&#x000A;&#x000A;The bathroom door is open to the south.&#x000A;&#x000A;You can also see a Bathroom Toilet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">flush john</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">flush john</command>
+    <result xml:space="preserve">The toilet flushes dramatically.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">Just as you take the first step down, Mom's voice rings out "Not with that hair!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The stairs lead downstairs to breakfast once you are ready for the day.&#x000A;&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">look under bed</command>
+    <result xml:space="preserve">Under Lauren's Bed are Hair Brush, Left Shoe and Big Dust Bunny.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">take brush</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">brush hair</command>
+    <result xml:space="preserve">Fabulous! Just fabulous!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The stairs lead downstairs to breakfast once you are ready for the day.&#x000A;&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">*** Mom looks you up and down and says "You did a great job getting ready today! Grab a waffle and let's get in the car!" ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">look under bed</command>
+    <result xml:space="preserve">Under Lauren's Bed are a hairbrush, a left shoe and a big dust bunny.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-65"/>
+      <child nodeId="node-111"/>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">take hair brush</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Hair Brush&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">take sneaker</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Left Shoe&#x000A;  Hair Brush&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">look at left shoe</command>
+    <result xml:space="preserve">You see nothing special about Left Shoe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">look at shoe</command>
+    <result xml:space="preserve">You see nothing special about Left Shoe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">go downstairs</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">Downstairs&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">take brush</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The stairs lead downstairs to breakfast once you are ready for the day.&#x000A;&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">Just as you take the first step down, Mom's voice rings out "Not with that hair!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">brush hair</command>
+    <result xml:space="preserve">You could try it with your fingers, but really, you need a brush.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">brush my hair</command>
+    <result xml:space="preserve">You could try it with your fingers, but really, you need a brush.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">brush Hair</command>
+    <result xml:space="preserve">You could try it with your fingers, but really, you need a brush.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">brush</command>
+    <result xml:space="preserve">What do you want to brush?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">look at hair</command>
+    <result xml:space="preserve">It is a bit of a wild sight!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">loot at teeth</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">look at teeth</command>
+    <result xml:space="preserve">Whoa! That breath makes your own eyes water!!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">take Hairbrush</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">take bunny</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">brush hair</command>
+    <result xml:space="preserve">Fabulous! Just fabulous!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The stairs lead downstairs to breakfast once you are ready for the day.&#x000A;&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">You start to head down, but then catch a wiff of your own breath and almost pass out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">Girl's Bathroom&#x000A;A small bathroom complete with calming blue walls, a single granite sink, toilet, and shower with tub.&#x000A;&#x000A;The bathroom door is open to the south.&#x000A;&#x000A;You can also see a counter (on which is a toothbrush) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">take toothbrush</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">brush teeth</command>
+    <result xml:space="preserve">You scrub away.  Top, bottom, inside, outside, and even scrub your tounge.  Sooo much better!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">brush teeth</command>
+    <result xml:space="preserve">They are sure to dazzel your teacher, so there isn't much to improve.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The stairs lead downstairs to breakfast once you are ready for the day.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">You look down and think someone will probably notice you're wearing the same clothes as yesterday.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Lauren's Closet&#x000A;Obviously a fasionista has stocked this closet!&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the south.&#x000A;&#x000A;A colorful dirty clothes basket sits in the middle of the closet and a few clothes have actually made it in!&#x000A;&#x000A;You clean outfit is ready to go.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">put on outfit</command>
+    <result xml:space="preserve">(first taking the clean clothes)&#x000A;You have a tough time getting the new outfit over yesterday's outfit and give up.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">put on outfit</command>
+    <result xml:space="preserve">You have a tough time getting the new outfit over yesterday's outfit and give up.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">take off yesterday's clothes</command>
+    <result xml:space="preserve">Yesterday's clothes fall to the floor.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">put on outfit</command>
+    <result xml:space="preserve">You put on the clean clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lauren's Closet&#x000A;Obviously a fasionista has stocked this closet!&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the south.&#x000A;&#x000A;A colorful dirty clothes basket sits in the middle of the closet and a few clothes have actually made it in!&#x000A;&#x000A;You can also see yesterday's clothes here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a clean clothes (being worn)&#x000A;  a toothbrush&#x000A;  a hairbrush&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">put yesterday's clothes in the clothes basket</command>
+    <result xml:space="preserve">(first taking yesterday's clothes)&#x000A;You put yesterday's clothes into the Dirty Clothes Basket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">put yesterday's clothes in the dirty clothes basket</command>
+    <result xml:space="preserve">(first taking yesterday's clothes)&#x000A;You put yesterday's clothes into the Dirty Clothes Basket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">take yesterday's clothes</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">drop yesterday's clothes</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;The stairs lead downstairs to breakfast once you are ready for the day.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">The toothbrush in your hand seems a bit of over kill for school.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">drop toothbrush</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">You rember leaving the toothbrush somewhere it shouldn't be.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">tok toothbrush</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">take toothbrush</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">Girl's Bathroom&#x000A;A small bathroom complete with calming blue walls, a single granite sink, toilet, and shower with tub.&#x000A;&#x000A;The bathroom door is open to the south.&#x000A;&#x000A;You can also see a counter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">put toothbrush on counter</command>
+    <result xml:space="preserve">You put the toothbrush on the counter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The stairs lead downstairs to breakfast once you are ready for the day.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">You should probably put the hairbrush away on the bathroom counter so it doesn't end up under the bed again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">Girl's Bathroom&#x000A;A small bathroom complete with calming blue walls, a single granite sink, toilet, and shower with tub.&#x000A;&#x000A;The bathroom door is open to the south.&#x000A;&#x000A;You can also see a counter (on which is a toothbrush) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">put hairbrush on counter</command>
+    <result xml:space="preserve">You put the hairbrush on the counter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Upstairs Hall&#x000A;The bathroom door is open to the northeast.&#x000A;&#x000A;A door wearing a moustach and glasses is to the southeast.&#x000A;&#x000A;The stairs lead downstairs to breakfast once you are ready for the day.&#x000A;&#x000A;A open white door is to the southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">*** Mom looks you up and down and says "You did a great job getting ready today! Grab a waffle and let's get in the car!" ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">Look at hair</command>
+    <result xml:space="preserve">It is a bit of a wild sight!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">look at my hair</command>
+    <result xml:space="preserve">You see nothing special about Hair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">brush hair</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">brushing hair</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">brush</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">brush bed</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">look at hair</command>
+    <result xml:space="preserve">It is a bit of a wild sight!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">Brush hair</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">brush bed</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">brush hair</command>
+    <result xml:space="preserve">You could try it with your fingers, but really, you need a brush.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">brush door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">look under bed</command>
+    <result xml:space="preserve">Under Lauren's Bed are Hair Brush, Left Shoe and Big Dust Bunny.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">brush shoe</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">take brush</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">brush hair</command>
+    <result xml:space="preserve">There really isn't much point.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">brush Hair</command>
+    <result xml:space="preserve">There really isn't much point.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">take brush</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">look under bed</command>
+    <result xml:space="preserve">Under Lauren's Bed are Hair Brush, Left Shoe and Big Dust Bunny.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">take brush</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">brush hair</command>
+    <result xml:space="preserve">Fabulous! Just fabulous!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">look at hair</command>
+    <result xml:space="preserve">(Hair Brush)&#x000A;You see nothing special about Hair Brush.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">look at Hair</command>
+    <result xml:space="preserve">(Hair Brush)&#x000A;You see nothing special about Hair Brush.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">look at my Hair</command>
+    <result xml:space="preserve">You see nothing special about Hair Brush.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">drop Hair Brush</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">look at hair</command>
+    <result xml:space="preserve">(Hair Brush)&#x000A;You see nothing special about Hair Brush.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Lauren's Closet&#x000A;Obviously a fasionista has stocked this closet!&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the south.&#x000A;&#x000A;A colorful dirty clothes basket sits in the middle of the closet and a few clothes have actually made it in!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">look at hair</command>
+    <result xml:space="preserve">It is looking quite nice.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;You can also see Hair Brush here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
