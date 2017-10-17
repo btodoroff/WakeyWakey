@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-159"/>
+  <activeNode nodeId="node-165"/>
   <item nodeId="node-0">
     <command xml:space="preserve">Wakey Wakey! Eggs and Bacy!</command>
-    <result xml:space="preserve">Wakey Wakey! Eggs and Bacy!&#x000A;An Interactive Fiction by Brian Todoroff&#x000A;Release 1 / Serial number 171017 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;You crawl out of bed to Taylor Swift's new song.  It's another Tuesday morning and you smell waffles calling to you from downstairs.&#x000A;&#x000A;Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Wakey Wakey! Eggs and Bacy!&#x000A;An Interactive Fiction by Brian Todoroff&#x000A;Release 1 / Serial number 171017 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;You crawl out of bed to Taylor Swift's new song.  It's another Tuesday morning and you smell waffles calling to you from downstairs.&#x000A;&#x000A;&#x000A;You can type "look" to see what is around you.  "go" will let you go north, south, east, west, northwest, northeast, southwest, southeast, up, and down.  You can "take" things, "wear" things, "drop" things, and a whole lot more.  Just give it a try.   Hurry up, Mom is waiting!&#x000A;&#x000A;Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-1"/>
       <child nodeId="node-7"/>
@@ -21,6 +21,9 @@
       <child nodeId="node-73"/>
       <child nodeId="node-79"/>
       <child nodeId="node-87"/>
+      <child nodeId="node-161"/>
+      <child nodeId="node-162"/>
+      <child nodeId="node-165"/>
     </children>
   </item>
   <item nodeId="node-1">
@@ -623,7 +626,7 @@
     <command xml:space="preserve">look under bed</command>
     <result xml:space="preserve">Under Lauren's Bed are a hairbrush, a left shoe and a big dust bunny.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-65"/>
       <child nodeId="node-111"/>
@@ -813,7 +816,7 @@
   </item>
   <item nodeId="node-160">
     <command xml:space="preserve">take bunny</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -966,7 +969,7 @@
   </item>
   <item nodeId="node-139">
     <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a clean clothes (being worn)&#x000A;  a toothbrush&#x000A;  a hairbrush&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You are carrying:&#x000A;  a clean clothes (being worn)&#x000A;  a toothbrush&#x000A;  a big dust bunny&#x000A;  a hairbrush&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -1130,7 +1133,7 @@
     <command xml:space="preserve">put hairbrush on counter</command>
     <result xml:space="preserve">You put the hairbrush on the counter.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-158"/>
     </children>
@@ -1146,7 +1149,7 @@
   </item>
   <item nodeId="node-159">
     <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">*** Mom looks you up and down and says "You did a great job getting ready today! Grab a waffle and let's get in the car!" ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <result xml:space="preserve">*** Mom looks you up and down and says "You did a great job getting ready today! Grab a waffle and let's get in the car!" She looks at the big old dust bunny in your hand, but decides it's better not to ask. ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
   </item>
@@ -1387,6 +1390,42 @@
   <item nodeId="node-98">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">Lauren's Room&#x000A;There as sooooo many things tucked into every nook and crany of this room.  Arts and crafts and projects cover the shelves and the bed is a rumpled pile of blankets and pillows.&#x000A;&#x000A;The closet door, complete with an array of fasionable footwear, is open to the north.&#x000A;&#x000A;A door wearing a moustach and glasses is to the northwest.&#x000A;&#x000A;You can also see Hair Brush here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">You can type "look" to see what is around you.  "go" will let you go north, south, east, west, northwest, northeast, southwest, southeast, up, and down.  You can "take" things, "wear" things, "drop" things, and a whole lot more.  Just give it a try.   Hurry up, Mom is waiting!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">help me</command>
+    <result xml:space="preserve">You can type "look" to see what is around you.  "go" will let you go north, south, east, west, northwest, northeast, southwest, southeast, up, and down.  You can "take" things, "wear" things, "drop" things, and a whole lot more.  Just give it a try.   Hurry up, Mom is waiting!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">help me</command>
+    <result xml:space="preserve">I only understood you as far as wanting to help.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">You can type "look" to see what is around you.  "go" will let you go north, south, east, west, northwest, northeast, southwest, southeast, up, and down.  You can "take" things, "wear" things, "drop" things, and a whole lot more.  Just give it a try.   Hurry up, Mom is waiting!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">look at bed</command>
+    <result xml:space="preserve">Warm and cozy, the bed calls to you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
